@@ -27,14 +27,14 @@ function App() {
           </div>
           <h1 className="text-2xl font-bold text-gray-800">Rasyadwa Arsya</h1>
           <p className="text-center text-gray-600 max-w-sm px-4">
-          First-year Information Technology student with a strong interest in Data Analytics, Full-Stack Development, IoT, and Project Management. Eager to learn, take on new challenges, and gain hands-on experience through real-world projects.
+          First-year Information Technology student at Universitas Gadjah Mada with a strong interest in Data Analytics, Full-Stack Development, IoT, and Project Management. Eager to learn, take on new challenges, and gain hands-on experience through real-world projects.
           </p>
         </div>
 
         {/* Primary Link */}
         <div className="px-4">
           <a
-            href="https://port1basic.vercel.app/"
+            href="https://port1basic-git-master-rasyadwarsyas-projects.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-white hover:bg-gray-50 transition-all duration-300 rounded-xl p-4 shadow-md hover:shadow-lg group w-full"
