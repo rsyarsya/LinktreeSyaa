@@ -20,28 +20,28 @@ function App() {
         <div className="flex flex-col items-center space-y-4">
           <div className="w-[150px] h-[150px] rounded-full overflow-hidden ring-4 ring-white shadow-xl">
             <img
-              src="public/pp2.jpg"
-              alt="Profile"
+              src="/pp2.jpg"
+              alt="pp gue"
               className="w-full h-full object-cover object-center"
             />
           </div>
           <h1 className="text-2xl font-bold text-gray-800">Rasyadwa Arsya</h1>
           <p className="text-center text-gray-600 max-w-sm px-4">
-            Computer Engineering Student at UGM. Passionate about web development and creating innovative solutions through technology.
+          First-year Information Technology student with a strong interest in Data Analytics, Full-Stack Development, IoT, and Project Management. Eager to learn, take on new challenges, and gain hands-on experience through real-world projects.
           </p>
         </div>
 
         {/* Primary Link */}
         <div className="px-4">
           <a
-            href="https://yourwebsite.com"
+            href="https://port1basic.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-white hover:bg-gray-50 transition-all duration-300 rounded-xl p-4 shadow-md hover:shadow-lg group w-full"
           >
             <div className="flex items-center space-x-3">
               <Globe className="w-6 h-6 text-indigo-600" />
-              <span className="font-medium text-gray-700">Personal Website</span>
+              <span className="font-medium text-gray-700">My Personal Website</span>
             </div>
             <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 transition-colors" />
           </a>
@@ -54,33 +54,33 @@ function App() {
           </h2>
           
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/rasyadwa-arsya-875b65320/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-[#0077B5] hover:bg-[#006399] text-white transition-all duration-300 rounded-xl p-4 shadow-md hover:shadow-lg group w-full"
           >
             <div className="flex items-center space-x-3">
               <Linkedin className="w-6 h-6" />
-              <span className="font-medium">Connect on LinkedIn</span>
+              <span className="font-medium">Connect with me on LinkedIn</span>
             </div>
             <ExternalLink className="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" />
           </a>
 
           <a
-            href="https://instagram.com/yourusername"
+            href="https://www.instagram.com/rasyadwarsya93_/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#F77737] hover:opacity-90 text-white transition-all duration-300 rounded-xl p-4 shadow-md hover:shadow-lg group w-full"
           >
             <div className="flex items-center space-x-3">
               <Instagram className="w-6 h-6" />
-              <span className="font-medium">Follow on Instagram</span>
+              <span className="font-medium">Follow me on Instagram</span>
             </div>
             <ExternalLink className="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" />
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/rsyarsya"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between bg-[#24292e] hover:bg-[#1b1f23] text-white transition-all duration-300 rounded-xl p-4 shadow-md hover:shadow-lg group w-full"
@@ -96,7 +96,7 @@ function App() {
         {/* Contact Section */}
         <div className="px-4 pt-6">
           <p className="text-center text-gray-600 mb-4">
-            Interested in collaborating? Let's connect via Gmail!
+            Interested in collaborating? Let's connect!
           </p>
           <a
             href={gmailUrl}
